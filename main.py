@@ -1,5 +1,11 @@
 import os
 import telegram
+from random import randint
+
+#Creating a function that reply with a random number
+n1,n2 = map(int, input("Digite 2 numeros: ").split("-"))
+
+print(randint(n1,n2))
 
 
 def webhook(request):
