@@ -5,7 +5,7 @@ from random import randint
 #Creating a function that reply with a random number
 def random(n1,n2):
     
-    return result = randint(n1,n2)
+    return randint(n1,n2)
  
 
 
