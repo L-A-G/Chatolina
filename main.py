@@ -18,22 +18,21 @@ CAMISAS = [
 ]
 
 PHRASES = [
-
-  'Nothing is as easy as it looks, 
-  'Everything takes longer than you think, 
-  'Anything that can go wrong will go wrong, 
-  'Não Pare até se lascar,
-  'Os humilhados serão Humilhados,
-  'Tudo vai de MAL a PIOR,
-  'Acorde cedo para se atrasar com CALMA,
-  'Você ainda não chegou lá, mas olha o quanto você JÁ SE FUDEU,
-  'Nada é tão ruim que não possa piorar,
-  'TUDO PASSA, nem que seja por cima de você,
-  'No ínicio você acha que não vai conseguir. Depois VOCÊ TEM CERTEZA,
-  'Esqueça o erros do PASSADO. Planeje os erros do FUTURO,
-  'Sem luta não há derrota,
-  'Penso, logo desisto,
-  'Nunca deixe ninguem dizer que você não consegue. Diga você mesmo: EU NÃO CONSIGO,
+    'Nothing is as easy as it looks, 
+    'Everything takes longer than you think, 
+    'Anything that can go wrong will go wrong, 
+    'Não Pare até se lascar,
+    'Os humilhados serão Humilhados,
+    'Tudo vai de MAL a PIOR,
+    'Acorde cedo para se atrasar com CALMA,
+    'Você ainda não chegou lá, mas olha o quanto você JÁ SE FUDEU,
+    'Nada é tão ruim que não possa piorar,
+    'TUDO PASSA, nem que seja por cima de você,
+    'No ínicio você acha que não vai conseguir. Depois VOCÊ TEM CERTEZA,
+    'Esqueça o erros do PASSADO. Planeje os erros do FUTURO,
+    'Sem luta não há derrota,
+    'Penso, logo desisto,
+    'Nunca deixe ninguem dizer que você não consegue. Diga você mesmo: EU NÃO CONSIGO,
 
 ]
 
