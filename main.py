@@ -15,8 +15,28 @@ CAMISAS = [
     'Webbr 2018',
     'Cheia de imagens na frente (praia, ...)',
     'HTML 5',
+    'Peering Db,
 ]
 
+PHRASES = [
+
+  'Nothing is as easy as it looks, 
+  'Everything takes longer than you think, 
+  'Anything that can go wrong will go wrong, 
+  'Não Pare até se lascar,
+  'Os humilhados serão Humilhados,
+  'Tudo vai de MAL a PIOR,
+  'Acorde cedo para se atrasar com CALMA,
+  'Você ainda não chegou lá, mas olha o quanto você JÁ SE FUDEU,
+  'Nada é tão ruim que não possa piorar,
+  'TUDO PASSA, nem que seja por cima de você,
+  'No ínicio você acha que não vai conseguir. Depois VOCÊ TEM CERTEZA,
+  'Esqueça o erros do PASSADO. Planeje os erros do FUTURO,
+  'Sem luta não há derrota,
+  'Penso, logo desisto,
+  'Nunca deixe ninguem dizer que você não consegue. Diga você mesmo: EU NÃO CONSIGO,
+
+]
 
 # A function that reply with a random number given two numbers.
 def random(n1, n2):
@@ -45,6 +65,8 @@ def webhook(request):
                 message = "Camisa para o Bigorna: ".format(choice(CAMISAS))
             elif 'CRON-STARBUCKS' in request_json:
                 message = "Starbucks? " + u'\u2615'
+            elif 'CRON-PHRASES' in request_json:
+                message = "Frase Motivacional do dia "format(choice(PHRASES)) "
 
         if message:
             bot.sendMessage(chat_id=chat_destination_id, text=message)
