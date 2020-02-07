@@ -15,7 +15,6 @@ CAMISAS = [
     'Webbr 2018',
     'Cheia de imagens na frente (praia, ...)',
     'HTML 5',
-    'Peering Db,
 ]
 
 PHRASES = [
