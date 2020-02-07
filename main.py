@@ -65,7 +65,7 @@ def webhook(request):
             elif 'CRON-STARBUCKS' in request_json:
                 message = "Starbucks? " + u'\u2615'
             elif 'CRON-PHRASES' in request_json:
-                message = "Frase Motivacional do dia "format(choice(PHRASES)) "
+                message = "Frase Motivacional do dia ".format(choice(PHRASES)) "
 
         if message:
             bot.sendMessage(chat_id=chat_destination_id, text=message)
